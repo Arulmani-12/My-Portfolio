@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/log.png">
+    <title>My-Portfolio</title>
+    <link href="Style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Fixed Header and Navigation -->
+    <header>
+        <div class="logo"><img src="assets/log.png" alt="logo" width="32px" height="34px"></div>
+        <nav>
+            <ul id="navMenu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="Resume/Resume.html">Resume</a></li>
+            </ul>
+            <img src="assets/menu.svg" alt="Menu" class="menu-icon" id="menuIcon">
+            <img src="assets/close.svg" alt="Close" class="close-icon" id="closeIcon">
+        </nav>
+    </header>
+
+    <div class="container main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi,</h1>
+                <h1>I'm <span>Arul</span></h1>
+                <h2>Web Developer</h2>
+                <a href="#footer" class="cta">Contact Me</a>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/arulmani-b-95b940298/" target="_blank"><img src="assets/link.png" alt="LinkedIn" class="social-icon"></a>
+                    <a href="https://github.com/Arulmani-12/" target="_blank"><img src="assets/git.png" alt="GitHub" class="social-icon"></a>
+                    <a href="mailto:arulmaniclever@gmail.com" target="_blank"><img src="assets/mail.png" alt="Email" class="social-icon"></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-img-container">
+                    <img src="assets/Arul.jpg" alt="Profile" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">Check out some of my personal projects</p>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="assets/Emp.png" alt="Employee Management System" class="project-img">
+                    <div class="project-info">
+                        <h3 class="project-title">Employee Management System</h3>
+                        <p class="project-tech">Java Swing, Java, MySQL</p>
+                        <a href="https://github.com/Arulmani-12/Employee-Management-System" class="project-link" target="_blank">Link</a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="assets/Quiz.jpg" alt="Quiz App" class="project-img">
+                    <div class="project-info">
+                        <h3 class="project-title">Quiz App</h3>
+                        <p class="project-tech">React, HTML, CSS</p>
+                        <a href="https://github.com/Arulmani-12/QuizApp" class="project-link" target="_blank">Link</a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="assets/Emp.png" alt="Portfolio" class="project-img">
+                    <div class="project-info">
+                        <h3 class="project-title">My_Portfolio</h3>
+                        <p class="project-tech">Html, Css, JavaScript</p>
+                        <a href="https://github.com/Arulmani-12/My-Portfolio.git" class="project-link" target="_blank">Link</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section with Toggle -->
+        <section id="education">
+            <h2 class="section-title">Education</h2>
+            <p class="section-subtitle">My academic Background and Qualifications</p>
+            
+            <div class="education-toggle" id="educationToggle">Education Details</div>
+            <div class="skills-toggle" id="skillsToggle">My Skills</div>
+            <!-- <div class="skills-toggle" >Skills</div> -->
+<!-- 
+            <h2 class="section-title">Education</h2> -->
+            <div class="certifications-toggle" id="certificationsToggle">Certifications</div>
+
+            <div class="certifications-content" id="certificationsContent">
+              <div class="certifications-grid">
+
+                <div class="certification-card">
+                  <img src="assets/Certfications/Java.png" alt="Java Certificate">
+                  <p>Java Basic Certification from HackerRank</p>
+                </div>
+
+                <div class="certification-card">
+                  <img src="assets/Certfications/TCSION.png" alt="TCS iON Certificate">
+                  <p>TCS iON Career Edge Professional Certification</p>
+                </div>
+
+                <div class="certification-card">
+                  <img src="assets/Certfications/Powerpoint.png" alt="PowerPoint Certificate">
+                  <p>Microsoft PowerPoint Beginners Level Certification</p>
+                </div>
+
+                <div class="certification-card">
+                    <img src="assets/Certfications/Excel.png" alt="Excel Certificate">
+                    <p>Microsoft Excel Beginners Level Certification</p>
+                  </div>
+
+                  <div class="certification-card">
+                    <img src="assets/Certfications/SQL.png" alt="SQL Certificate">
+                    <p>SQL Basic Certification from HackerRank</p>
+                  </div>
+
+                  <div class="certification-card">
+                    <img src="assets/Certfications/Word.png" alt="Word Certificate">
+                    <p>Microsoft Word Beginners Level Certification</p>
+                  </div>
+
+              </div>
+            </div>
+
+            <div class="education-content" id="educationContent">
+                <!-- Education content from resume.html -->
+                <div class="education-item">
+                    <div class="institution">Government Arts College, Udumalpet</div>
+                    <div class="degree">Bachelor of Science in Computer Science</div>
+                    <div class="education-details">
+                        <div class="cgpa">CGPA: 7.5</div>
+                        <div class="date">Aug 2021 - June 2024</div>
+                    </div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="institution">Government Higher Secondary School (HSC), Alangiam</div>
+                    <div class="education-details">
+                        <div class="percentage">Final Percentage: 85%</div>
+                        <div class="date">June 2020 - May 2021</div>
+                    </div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="institution">Government Higher Secondary School (SSLC), Alangiam</div>
+                    <div class="education-details">
+                        <div class="percentage">Final Percentage: 80%</div>
+                        <div class="date">June 2018 - May 2019</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      <section id="contain">
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java">
+                <h3>Java</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <img src="assets//images/html.png" alt="Html">
+                <h3>Html</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 98%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <img src="assets/images/css-3.png" alt="Css">
+                <h3>Css</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+    
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+    
+            <div class="skill-card">
+                <img src="assets/images/react.png" alt="React">
+                <h3>React</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+
+
+            <div class="skill-card">
+                <img src="assets/images/git.png" alt="Git">
+                <h3>Git</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <img src="assets/images/mysql.png" alt="MySql">
+                <h3>MySql</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 98%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <img src="assets/images/Api.png" alt="Rest Api">
+                <h3>Rest Api</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <img src="assets/images/mongo.png" alt="NoSQL">
+                <h3>MongoDB</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <img src="assets/images/oracle.png" alt="RDBMS">
+                <h3>Oracle</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+    
+            </div>
+    
+      </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <p><img src="assets/mail.png" alt="Email"> <a href="mailto: arulmaniclever@gmail.com" target="_blank" class="__cf_email__">[<span class="__cf_email__" data-cfemail="472635322b2a26292e242b2231223507202a262e2b6924282a">arulmaniclever@gmail.com]</span></a></p>
+                    <p><img src="assets/mail.png" alt="Phone"> 6383237613</p>
+                </div>
+                <div class="footer-social">
+                    <a href="mailto:arulmaniclever@gmail.com" target="_blank"><img src="assets/mail.png" alt="Email"></a>
+                    <a href="https://www.linkedin.com/in/arulmani-b-95b940298/" target="_blank"><img src="assets/link.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/Arulmani-12/" target="_blank"><img src="assets/git.png" alt="GitHub"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript for Mobile Menu Toggle and Education Toggle -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="Script.js"></script>
+<!-- <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body> -->
+</html>
+

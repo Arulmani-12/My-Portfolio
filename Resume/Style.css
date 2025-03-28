@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  /* Header styles */
+  .header {
+    margin-bottom: 15px;
+  }
+  
+  .name {
+    color: rgb(32, 107, 107);
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-item img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+  
+  .contact-item a {
+    color: #4682b4;
+    text-decoration: none;
+  }
+  
+  /* Profile section */
+  .profile {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .profile p {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Section styles */
+  .section {
+    margin-bottom: 15px;
+  }
+  
+  .section-title {
+    color: rgb(32, 107, 107);
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #4682b4;
+    padding-bottom: 3px;
+  }
+  
+  /* Skills section */
+  .skill-category {
+    margin-bottom: 5px;
+  }
+  
+  .skill-label {
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    min-width: 120px;
+  }
+  
+  .skill-items {
+    font-size: 14px;
+    margin-left: 39px;
+  }
+  
+  .skill-item {
+    font-size: 14px;
+  }
+  
+  /* Education section */
+  .education-item {
+    margin-bottom: 10px;
+  }
+  
+  .institution {
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(32, 107, 107);
+  }
+  
+  .degree {
+    font-size: 14px;
+  }
+  
+  .education-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  .cgpa {
+    font-size: 14px;
+  }
+  
+  .cgpa::before {
+    content: "▸";
+    color: #4682b4;
+    margin-left: 5px;
+  }
+  
+  .percentage {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .date {
+    color: rgb(32, 107, 107);
+    transform: translateY(-22px);
+  }
+  
+  .percentage::before {
+    content: "▸";
+    color: #4682b4;
+    margin-right: 5px;
+  }
+  
+  /* Projects section */
+  .project {
+    margin-bottom: 15px;
+  }
+  
+  .project-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(32, 107, 107);
+  }
+  
+  .project-link {
+    color: rgb(32, 107, 107);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .project-tech {
+    font-style: italic;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .project-details {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  
+  .project-details li {
+    margin-bottom: 5px;
+  }
+  
+  /* Courses section */
+  .courses-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  
+  .courses-list li {
+    margin-bottom: 5px;
+  }
+  
+  .highlight {
+    color: #4682b4;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    body {
+      padding: 15px;
+    }
+  
+    .contact-info {
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contact-info {
+      flex-direction: column;
+      gap: 8px;
+    }
+  
+    .education-details {
+      flex-direction: column;
+    }
+  
+    .date {
+      transform: none;
+      margin-top: 5px;
+    }
+  
+    .skill-label,
+    .skill-items {
+      display: block;
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      padding: 10px;
+    }
+  
+    .name {
+      font-size: 20px;
+    }
+  
+    .section-title {
+      font-size: 14px;
+    }
+  
+    .institution,
+    .project-title {
+      font-size: 13px;
+    }
+  
+    .degree,
+    .project-tech,
+    .skill-label,
+    .skill-items,
+    .courses-list,
+    .project-details {
+      font-size: 12px;
+    }
+  }
+  
+  
