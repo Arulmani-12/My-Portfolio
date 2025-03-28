@@ -602,11 +602,13 @@ footer {
   }
 
   .profile-img-container {
+     transform: translateY(45px);
     width: 250px;
     height: 250px;
   }
 
   .hero-content h1 {
+    transform: translateY(8px);
     font-size: 36px;
   }
 
